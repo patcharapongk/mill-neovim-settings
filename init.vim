@@ -23,7 +23,10 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'nvim-tree/nvim-tree.lua'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 Plug 'airblade/vim-gitgutter'
+
+Plug 'github/copilot.vim'
 call plug#end()
 
 lua << EOF
@@ -45,4 +48,4 @@ inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 " inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 " inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
-colorscheme catppuccin
+colorscheme rose-pine-moon 
