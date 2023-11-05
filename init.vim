@@ -14,9 +14,12 @@ set numberwidth=5
 
 
 call plug#begin()
-Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
 Plug 'nvim-tree/nvim-web-devicons'
+Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+Plug 'rose-pine/neovim', { 'as': 'rose-pine' }
+
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'nvim-tree/nvim-tree.lua'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
