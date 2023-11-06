@@ -6,8 +6,6 @@
     "typescript",
     "typescriptreact",
     "json",
-    "graphql",
-    "elixir",
-    "eelixir"
+    "graphql"
   ]
 }
